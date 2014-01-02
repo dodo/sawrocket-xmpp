@@ -1,0 +1,30 @@
+{
+  "name": "sawrocket-xmpp",
+  "version": "0.0.0",
+  "description": "xmpp connection on raw socket api",
+  "author": "https://github.com/dodo",
+  "main": "xmpp.js",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dodo/sawrocket-xmpp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dodo/sawrocket-xmpp/issues"
+  },
+  "keywords": [
+    "Raw",
+    "Socket",
+    "API",
+    "xmpp"
+  ],
+  "dependencies": {
+    "node-xmpp": "~0.7.2",
+    "sawrocket-node": "~0.1.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "browserify": "~2.35.1",
+    "grunt-browserify": "~1.2.11"
+  }
+}

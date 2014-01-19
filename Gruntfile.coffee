@@ -10,8 +10,8 @@ module.exports = (grunt) ->
                     alias:[
                         'sawrocket-node/net:net'
                         'sawrocket-node/tls:tls'
-                        'node-xmpp:'
                     ]
+                    packageFilter:require('sawrocket-node/Gruntfile').packageFilter
 
     grunt.loadNpmTasks 'grunt-browserify'
 

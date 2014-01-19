@@ -18,6 +18,9 @@
     "API",
     "xmpp"
   ],
+  "scripts": {
+    "prepublish": "grunt default"
+  },
   "dependencies": {
     "node-xmpp": "~0.12.0",
     "sawrocket-node": "~0.2.0"

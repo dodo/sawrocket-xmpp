@@ -1,6 +1,6 @@
 {
   "name": "sawrocket-xmpp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "xmpp connection on raw socket api",
   "author": "https://github.com/dodo",
   "main": "xmpp.js",
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "node-xmpp": "~0.12.0",
-    "sawrocket-node": "~0.2.0"
+    "sawrocket-node": "~0.2.3"
   },
   "devDependencies": {
     "grunt": "~0.4.1",

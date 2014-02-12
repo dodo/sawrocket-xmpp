@@ -22,6 +22,7 @@
     "prepublish": "grunt default"
   },
   "dependencies": {
+    "debug": "*",
     "node-xmpp": "~0.12.0",
     "sawrocket-node": "~0.2.3"
   },

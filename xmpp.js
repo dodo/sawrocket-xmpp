@@ -1,6 +1,7 @@
-require('util').debuglog = function (tag) {
-    return console.log.bind(console, tag+":");
-};
+function pf(p,f){return function(n){return f(p+':'+n)}};
+
+// hook core debugging to `debug`
+require('util').debuglog = pf('core', require('debug'));
 
 var xmpp = require('node-xmpp');
 if (window) window.xmpp = xmpp;

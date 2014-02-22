@@ -1,4 +1,5 @@
-module.exports = (grunt) ->
+module.exports = exports = (grunt) ->
+
 
     grunt.initConfig
         pkg: grunt.file.readJSON('package.json')
@@ -7,11 +8,7 @@ module.exports = (grunt) ->
                 files:
                     'sawrocket-xmpp.browser.js': ['xmpp.js']
                 options:
-                    alias:[
-                        'sawrocket-node/net:net'
-                        'sawrocket-node/tls:tls'
-                    ]
-                    packageFilter:require('sawrocket-node/Gruntfile').packageFilter
+                    alias:( "#{src}:#{tgt}" for tgt, src of require('./package').browser)
 
     grunt.loadNpmTasks 'grunt-browserify'
 

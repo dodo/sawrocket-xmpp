@@ -1,6 +1,6 @@
 {
   "name": "sawrocket-xmpp",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "xmpp connection on raw socket api",
   "author": "https://github.com/dodo",
   "main": "xmpp.js",

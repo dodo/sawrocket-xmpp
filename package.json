@@ -22,7 +22,7 @@
     "prepublish": "grunt default"
   },
   "dependencies": {
-    "debug": "*",
+    "debug": "git+https://github.com/dodo/debug.git",
     "node-xmpp": "git+https://github.com/node-xmpp/node-xmpp.git",
     "node-xmpp-core": "git+https://github.com/node-xmpp/node-xmpp-core.git",
     "node-xmpp-client": "git+https://github.com/node-xmpp/node-xmpp-client.git",

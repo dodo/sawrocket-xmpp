@@ -26,6 +26,8 @@
     "node-xmpp": "git+https://github.com/node-xmpp/node-xmpp.git",
     "node-xmpp-core": "git+https://github.com/node-xmpp/node-xmpp-core.git",
     "node-xmpp-client": "git+https://github.com/node-xmpp/node-xmpp-client.git",
+    "level-fs-browser": "~0.1.0",
+    "native-dns": "~0.6.1",
     "sawrocket-node": "~0.3.2"
   },
   "devDependencies": {
@@ -35,7 +37,10 @@
     "grunt-browserify": "~1.3.0"
   },
   "browser": {
+    "fs": "sawrocket-xmpp/node_modules/level-fs-browser",
+    "dns": "sawrocket-xmpp/node_modules/native-dns",
     "net": "sawrocket-xmpp/node_modules/sawrocket-node/net",
-    "tls": "sawrocket-xmpp/node_modules/sawrocket-node/tls"
+    "tls": "sawrocket-xmpp/node_modules/sawrocket-node/tls",
+    "dgram": "sawrocket-xmpp/node_modules/sawrocket-node/dgram"
   }
 }

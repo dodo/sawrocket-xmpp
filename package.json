@@ -35,7 +35,7 @@
     "grunt-browserify": "~1.3.0"
   },
   "browser": {
-    "net": "sawrocket-node/net",
-    "tls": "sawrocket-node/tls"
+    "net": "sawrocket-xmpp/node_modules/sawrocket-node/net",
+    "tls": "sawrocket-xmpp/node_modules/sawrocket-node/tls"
   }
 }

@@ -8,7 +8,7 @@ module.exports = exports = (grunt) ->
                 files:
                     'sawrocket-xmpp.browser.js': ['xmpp.js']
                 options:
-                    alias:( "#{src}:#{tgt}" for tgt, src of require('./package').browser)
+                    alias:( "#{src.replace /^sawrocket-xmpp/, '.'}:#{tgt}" for tgt, src of require('./package').browser)
 
     grunt.loadNpmTasks 'grunt-browserify'
 

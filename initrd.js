@@ -24,3 +24,9 @@ fs.writeFile("/etc/resolv.conf", [
     ""].join('\n'), 'ascii', function (err) {
         if (err) console.error(err);
 });
+
+// add node-xmpp stanza serializer for tls sockets
+var crypto = require('crypto');
+require('tls').TLSSocket.prototype.serializeStanza = function (el, cb) {
+    return cb(crypto.forge.util.encodeUtf8(el.toString()));
+};

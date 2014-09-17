@@ -23,12 +23,12 @@
   },
   "dependencies": {
     "debug": "git+https://github.com/dodo/debug.git",
-    "node-xmpp": "git+https://github.com/node-xmpp/node-xmpp.git",
-    "node-xmpp-core": "git+https://github.com/node-xmpp/node-xmpp-core.git",
-    "node-xmpp-client": "git+https://github.com/node-xmpp/node-xmpp-client.git",
+    "node-xmpp": "~1.0.0",
+    "node-xmpp-core": "~1.0.0",
+    "node-xmpp-client": "~1.0.0",
     "level-fs-browser": "~0.1.0",
     "native-dns": "~0.6.1",
-    "sawrocket-node": "~0.3.2"
+    "sawrocket-node": "~0.4.0"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
